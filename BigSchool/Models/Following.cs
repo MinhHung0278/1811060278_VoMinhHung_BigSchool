@@ -21,3 +21,5 @@ namespace _1811060278_VoMinhHung_BigSchool.Models
         public ApplicationUser Followee { get; set; }
     }
 }
+
+//Commit  cuoi gio
