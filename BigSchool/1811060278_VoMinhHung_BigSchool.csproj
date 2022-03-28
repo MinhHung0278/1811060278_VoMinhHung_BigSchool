@@ -193,7 +193,11 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ApplicationDbContext_dbContext.cs" />
+    <Compile Include="Controllers\AttendancesController.cs" />
+    <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -203,8 +207,30 @@
     <Compile Include="Migrations\201903250116403_KhoiTaoModel.Designer.cs">
       <DependentUpon>201903250116403_KhoiTaoModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202203181342009_InitialModel.cs" />
+    <Compile Include="Migrations\202203181342009_InitialModel.designer.cs">
+      <DependentUpon>202203181342009_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203210244273_CreateTableCourse.cs" />
+    <Compile Include="Migrations\202203210244273_CreateTableCourse.designer.cs">
+      <DependentUpon>202203210244273_CreateTableCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203210253550_PopulateCategoryTable.cs" />
+    <Compile Include="Migrations\202203210253550_PopulateCategoryTable.designer.cs">
+      <DependentUpon>202203210253550_PopulateCategoryTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203241244132_AddNameColumnToApplicationUser.cs" />
+    <Compile Include="Migrations\202203241244132_AddNameColumnToApplicationUser.designer.cs">
+      <DependentUpon>202203241244132_AddNameColumnToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\Attendance.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\Following.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -285,6 +311,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201903250116403_KhoiTaoModel.resx">
       <DependentUpon>201903250116403_KhoiTaoModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203181342009_InitialModel.resx">
+      <DependentUpon>202203181342009_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203210244273_CreateTableCourse.resx">
+      <DependentUpon>202203210244273_CreateTableCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203210253550_PopulateCategoryTable.resx">
+      <DependentUpon>202203210253550_PopulateCategoryTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203241244132_AddNameColumnToApplicationUser.resx">
+      <DependentUpon>202203241244132_AddNameColumnToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

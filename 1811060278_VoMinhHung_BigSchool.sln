@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigSchool", "BigSchool\BigSchool.csproj", "{A376E224-CC35-4861-A55A-3E910AA8FD3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1811060278_VoMinhHung_BigSchool", "BigSchool\1811060278_VoMinhHung_BigSchool.csproj", "{A376E224-CC35-4861-A55A-3E910AA8FD3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0E3453B-0C6E-433C-8DB9-DF4C68028623}
 	EndGlobalSection
 EndGlobal
